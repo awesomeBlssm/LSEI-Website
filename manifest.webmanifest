@@ -7,7 +7,21 @@
   "description": "Vanilla Calendar is a fully responsive calendar app built with HTML, CSS, and JavaScript. Create, manage, and view events in real-time, all built from scratch without libraries or frameworks.",
   "display": "fullscreen",
   "name": "Vanilla Calendar",
+  "short_name": "Calendar",
   "orientation": "portrait",
   "start_url": "https://vanilla-calendar.mateuszziomekit.com",
-  "theme_color": "#2563eb"
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
